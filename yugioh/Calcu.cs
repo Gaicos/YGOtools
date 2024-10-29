@@ -208,5 +208,20 @@ namespace yugioh
             // Atualiza a label com o novo valor de somaNp2
             UpdateSomaLabelp2();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            
+            LP = 8000;
+            LPp2 = 8000;
+
+            // Reseta os textos dos duelistas
+            textBox1.Text = "Duelista 1";
+            textBox2.Text = "Duelista 2";
+
+            UpdateLPLabel();
+            UpdateLPLabelp2();
+            
+        }
     }
 }
