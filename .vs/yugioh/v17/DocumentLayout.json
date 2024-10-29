@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8EB64857-6B91-465E-B5EC-C9A91A14A8C2}|yugioh\\yugioh.csproj|c:\\users\\gaicos\\desktop\\estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\calcu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8EB64857-6B91-465E-B5EC-C9A91A14A8C2}|yugioh\\yugioh.csproj|solutionrelative:yugioh\\calcu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB64857-6B91-465E-B5EC-C9A91A14A8C2}|yugioh\\yugioh.csproj|c:\\users\\gaicos\\desktop\\estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\calcu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB64857-6B91-465E-B5EC-C9A91A14A8C2}|yugioh\\yugioh.csproj|solutionrelative:yugioh\\calcu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Calcu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Gaicos\\Desktop\\Estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\Calcu.Designer.cs",
-              "RelativeDocumentMoniker": "yugioh\\Calcu.Designer.cs",
-              "ToolTip": "C:\\Users\\Gaicos\\Desktop\\Estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\Calcu.Designer.cs",
-              "RelativeToolTip": "yugioh\\Calcu.Designer.cs",
-              "ViewState": "AgIAADwBAAAAAAAAAAAAwGMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:08:30.375Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,9 +28,10 @@
               "RelativeDocumentMoniker": "yugioh\\Calcu.cs",
               "ToolTip": "C:\\Users\\Gaicos\\Desktop\\Estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\Calcu.cs",
               "RelativeToolTip": "yugioh\\Calcu.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAN4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAQwPIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:07:03.354Z",
+              "WhenOpened": "2024-10-28T23:58:02.889Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -59,7 +43,7 @@
               "ToolTip": "C:\\Users\\Gaicos\\Desktop\\Estudos\\programacao\\dotnet\\projetoyugio\\yugioh\\yugioh\\Calcu.cs [Design]",
               "RelativeToolTip": "yugioh\\Calcu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:05:58.619Z",
+              "WhenOpened": "2024-10-28T23:56:57.061Z",
               "EditorCaption": " [Design]"
             }
           ]

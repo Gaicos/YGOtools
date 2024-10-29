@@ -21,7 +21,6 @@ C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\ob
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\obj\Release\yugioh.csproj.CoreCompileInputs.cache
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\obj\Release\yugioh.exe
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\obj\Release\yugioh.pdb
-C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\obj\Release\yugioh.GameTimer.resources
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\bin\Release\yugioh.exe.config
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\bin\Release\yugioh.exe
 C:\Users\Gaicos\Desktop\Estudos\programacao\dotnet\projetoyugio\yugioh\yugioh\bin\Release\yugioh.pdb

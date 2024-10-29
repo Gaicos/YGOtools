@@ -1,4 +1,6 @@
-﻿namespace yugioh
+﻿using System.Windows.Forms;
+
+namespace yugioh
 {
     partial class Menu
     {
@@ -59,16 +61,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(219, 233);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(328, 45);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "TIMER";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Menu_Timer);
             // 
             // button4
             // 
@@ -91,6 +83,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
@@ -108,5 +101,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
+    
+    
 }
 

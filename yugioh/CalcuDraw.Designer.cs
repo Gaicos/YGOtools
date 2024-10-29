@@ -51,14 +51,14 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(25, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 25);
+            this.label1.Size = new System.Drawing.Size(337, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "quantas cartas vc tem no baralho ?";
+            this.label1.Text = "Quantas cartas você tem no baralho?";
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(401, 32);
+            this.numericUpDown1.Location = new System.Drawing.Point(463, 34);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(58, 38);
             this.numericUpDown1.TabIndex = 1;
@@ -69,14 +69,14 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 110);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 25);
+            this.label2.Size = new System.Drawing.Size(344, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "quantidade de bixos iguais ";
+            this.label2.Text = "Qual é a quantidade de bichos iguais?";
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(401, 95);
+            this.numericUpDown2.Location = new System.Drawing.Point(463, 97);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(58, 38);
             this.numericUpDown2.TabIndex = 3;
@@ -94,7 +94,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(401, 154);
+            this.numericUpDown3.Location = new System.Drawing.Point(463, 156);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(58, 38);
             this.numericUpDown3.TabIndex = 5;
@@ -108,7 +108,6 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -116,14 +115,14 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(25, 227);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(314, 25);
+            this.label4.Size = new System.Drawing.Size(408, 25);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Quant desses bixo que vc quer ver";
+            this.label4.Text = "Quantos desses bichos você gostaria de ver?";
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown4.Location = new System.Drawing.Point(401, 219);
+            this.numericUpDown4.Location = new System.Drawing.Point(463, 221);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(58, 38);
             this.numericUpDown4.TabIndex = 8;
@@ -154,6 +153,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;

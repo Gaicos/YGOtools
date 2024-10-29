@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Reflection.Emit;
 using System.Windows.Forms;
+using yugioh;
 
 namespace yugioh
 {
+
     public partial class Calcu : Form
     {
         // Variáveis para armazenar os valores
@@ -13,13 +15,19 @@ namespace yugioh
         private int somaNp2 = 0;
         
 
+
+        private Cronometro cronometro;
+
         public Calcu()
         {
             InitializeComponent();
+            cronometro = new Cronometro();
+            cronometro.TempoAtualizado += AtualizarLabelCronometro;
             UpdateSomaLabel();
             UpdateLPLabel();
             UpdateSomaLabelp2();
             UpdateLPLabelp2();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -125,7 +133,7 @@ namespace yugioh
             // Atualiza a label com o novo valor de somaN
             UpdateSomaLabel();
         }
-
+        
         private void Sub100(object sender, EventArgs e)
         {
             // Adiciona -100 à variável somaN
@@ -211,17 +219,63 @@ namespace yugioh
 
         private void button16_Click(object sender, EventArgs e)
         {
-            
+            // Reinicia os pontos de vida dos jogadores
             LP = 8000;
             LPp2 = 8000;
+
+            // Reinicia os acumuladores de soma
+            somaN = 0;
+            somaNp2 = 0;
 
             // Reseta os textos dos duelistas
             textBox1.Text = "Duelista 1";
             textBox2.Text = "Duelista 2";
 
+            // Atualiza as labels com os valores reiniciados
             UpdateLPLabel();
             UpdateLPLabelp2();
-            
+            UpdateSomaLabel();
+            UpdateSomaLabelp2();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            // Se o cronômetro estiver pausado, chama o método Continuar
+            if (cronometro.Pausado)
+            {
+                cronometro.Continuar(); // Retoma o cronômetro
+            }
+            else
+            {
+                // Inicia o cronômetro com 60 minutos (3600 segundos)
+                cronometro.Iniciar(3600);
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            // Pausa o cronômetro
+            cronometro.Pausar();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            // Reinicia o cronômetro
+            cronometro.Recomeçar();
+        }
+
+        private void AtualizarLabelCronometro(object sender, EventArgs e)
+        {
+            // Atualiza a label com o tempo atual do cronômetro
+            label3.Text = cronometro.ObterTempoFormatado(); // Converte o tempo para string e atualiza a label
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            // Evento vazio para o clique na label, se necessário
         }
     }
-}
+
+        
+    }
+ 
